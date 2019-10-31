@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} 
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{elle2.jpeg}
+\cvdate{}
+\cvname{Elle O'Brien} % Your name
+\cvjobtitle{Researcher} % Job title/career
+
+\cvaddress{andronovhopf@gmail.com} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(631) 374-1605} % Phone number
+\cvsite{elle-obrien.com} % Personal website
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+
+\Education{Ph.D. Speech and Hearing Sciences, Institute for Learning and Brain Sciences, University of Washington (expected November 2019)
+\newline \newline M.S. Neuroscience \newline  University of Washington, 2016\
+\newline \newline B.A. Mathematics \newline  Agnes Scott College, 2013} % To have no Education section, just remove all the text and leave \Education{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+\underline{Languages}: Python, R, Matlab, C, C++
+
+\newline \underline{Libraries} : Keras, PyTorch, CV, Scikit-Learn, NLTK, Spacy
+\newline \underline{Computing} : High performance, cloud (AWS \& Google), and GPU
+}
+
+
+
+\Outreach{\underline{Instructor} @ University of Washington \\ - Taught undergraduate course about the physics of sound and fundamentals of signal processing (2017)
+\newline\newline \underline{Speaker} @ Pop-Up Magazine \\- Presented on a five-city speaking tour for a general audience about creative writing with AI
+\newline\newline \underline{Editorial Intern} @ Acoustics Today \\ - Wrote a series of historical biographies about acousticians of note for American Institute of Physics publication}
+
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since 2017}{Speech Researcher}{Institute for Learning \& Brain Sciences, WA}{Statistical models of speech perception and sensory processing\\Applied machine learning on large public dataset}
+	\twentyitem{2017-2019}{Chief Scientist}{Botnik Studios, WA}{Developed NLP models for text style translation with word embeddings and seq2seq neural networks}
+	\twentyitem{2016-17}{IT Specialist}{Virginia M. Bloedel Hearing Research Center, WA}{System administrator for Linux file server and web server\\Managed server migration to private cloud platform}
+	\twentyitem{2013-16}{Computational Neuroscience Researcher}{University of Washington, WA}{Employed highly parallel simulations of neuronal activity and information theoretical methods to understand sensory processing with a brain-computer interface}
+	\twentyitem{2010-13}{Computational Neuroscience Researcher}{Georgia State University, GA}{Studied rhythm-generating neural circuits using mathematical models and simulations}
+	
+
+	
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Select Papers, Talks \& Projects}
+
+\begin{twenty} 
+    \twentyitem{2018-19}{NeurIPS Creativity Workshop}{}{Presented creative applications of AI, including image synthesis with generative adversarial networks}
+    \twentyitem{2019}{Building Datasets from Culture} {American Statistical Association Meeting}{Invited talk about scraping and analyzing unstructured data from the web, including text, images and video captions}
+	\twentyitem{2018}{Reading and Phoneme Categorization} {Nature Scientific Reports}{Developed a method for determining Bayesian priors on a statistical model of decision-making to reduce bias in parameter estimates}
+	\twentyitem{2018}{Baking the Most Average Chocolate Chip Cookie}{The Pudding}{Used natural language processing to find the average of 200+ chocolate chip cookie recipes for an interactive web piece}
+	\twentyitem{2015}{The development of biophysical models of the electrically stimulated auditory nerve}{Network: Computation in Neural Systems}{An invited review of mathematical models in auditory neuroscience}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Achievements}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{2017-19}{Auditory Neuroscience Fellow}{}{Recipient of institutional NIH T32 training grant valued at 91k}
+	\twentyitem{2017}{Top Scholar Award}{}{Departmental scholarship for academic \& research achievement}
+	\twentyitem{2016}{NSF Perfect Pitch Finalist}{}{Second-place winner in national pitch competition}
+	\twentyitem{2014-16}{NSF Graduate Research Fellow}{}{Recipient of National Science Foundation's funding, valued at 96k}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Special Training}
+
+\begin{twentyshort} % Environment for a list with descriptions
+
+	\twentyitemshort{Electives}{High Performance Scientific Computing, Machine Learning for Health Data, Introduction to Mathematical Biology\\}
+	\twentyitemshort{Other training}{Mathematics of Machine Learning summer school (2019)\\TechStar's Amazon Alexa Accelerator (2018)\\International High Performance Computing summer school (2016)\\Allen Institute Dynamical Neuroscience summer school (2015)}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twentyshort}
+
+
+\end{document} 
